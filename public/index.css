@@ -265,6 +265,20 @@ section {
     box-shadow: var(--cartoon-shadow);
 }
 
+.elon-favorites-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto 4rem;
+}
+
+@media (max-width: 992px) {
+    .elon-favorites-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .tweet-header {
     display: flex;
     align-items: center;
