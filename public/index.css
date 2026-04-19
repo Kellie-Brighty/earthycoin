@@ -40,7 +40,7 @@ h1, h2, h3, .brand {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: url('file:///Users/pc/.gemini/antigravity/brain/7f732947-dde2-4ea9-a6a7-c324980b719d/space_bg_1776593706939.png') no-repeat center center;
+    background: url('space_bg.png') no-repeat center center;
     background-size: cover;
     opacity: 0.6;
     transition: transform 0.1s ease-out;
